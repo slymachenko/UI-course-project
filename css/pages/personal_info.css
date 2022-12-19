@@ -1,0 +1,78 @@
+/* MAIN */
+main {
+  width: 100%;
+  height: 100%;
+}
+
+main .container {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dispatch_reg {
+  border: 1px solid #3d4e5d;
+  border-radius: 15px;
+
+  padding: 10px;
+
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #3d4e5d;
+  display: flex;
+  flex-direction: column;
+}
+
+.dispatch_reg legend {
+  padding: 10px 0;
+  font-size: 25px;
+  color: #fff;
+}
+
+.dispatch_reg > div {
+  border-top: 1px solid #fff;
+  padding: 20px 0;
+}
+
+.setting_item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.setting_item input[type="text"] {
+  color: #3d4e5d;
+  font-size: 15px;
+  transition: all 0.3s;
+  width: 100%;
+  padding: 20px 20px;
+  border: 1px solid #3d4e5d;
+}
+
+.setting_item button {
+  position: absolute;
+  right: 1rem;
+  border: none;
+
+  font-size: 15px;
+  transition: all 0.3s;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: #3d4e5d;
+  background: #fff;
+}
+
+.setting_item .save {
+  display: none;
+}
+
+.setting_item button:hover {
+  color: #99a2aa;
+}
+
+@media (min-width: 740px) {
+  .dispatch_reg > legend {
+    font-size: 30px;
+  }
+}

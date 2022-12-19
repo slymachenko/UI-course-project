@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/includes/base.css" />
+    <link rel="stylesheet" href="/css/includes/header.css" />
+    <link rel="stylesheet" href="/css/includes/footer.css" />
+    <link rel="stylesheet" href="/css/pages/auth.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div>
+          <a href="./home.html" id="logo"
+            ><img src="/imgs/logo.png"
+          /></a>
+          <div class="contact_info">
+            <p>
+              <span id="contact_info_num">+38 099 500 5454</span>
+              <br />
+              <span id="contact_info_email">poshta@khrobak.ua</span>
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./prices.html">Тарифи</a></li>
+            <li><a href="./shipment.html">Оформити відправлення</a></li>
+            <li><a href="./package_history.html">Мої посилки</a></li>
+            <li><a href="./personal_info.html">Персональна інформація</a></li>
+            <li class="right active"><a href="./auth_reg.html">Вхід\Реєстрація</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <form class="auth_form" action="/home.html" method="get">
+          <label>Зареєструйте свій акаунт</label>
+          <div>
+            <input id="email_input" placeholder="Введіть свою електрону пошту" required>
+            <input id="pass_input" type="password" placeholder="Введіть свій пароль" required>
+            <button id="submit">Зареєструватися</button>
+          </div>
+        </form>
+        <a href="./auth_log.html">Вже маєте аккаунт?</a>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h3>Адреса</h3>
+          <p>вул. Банкова, 22, м. Київ</p>
+          <p>01001, Україна</p>
+        </div>
+        <div>
+          <h3>Контактна інформація</h3>
+          <p>+38 099 500 5454</p>
+          <p>poshta@khrobak.ua</p>
+        </div>
+    </footer>
+  </body>
+</html>

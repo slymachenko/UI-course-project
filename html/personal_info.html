@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/includes/base.css" />
+    <link rel="stylesheet" href="/css/includes/header.css" />
+    <link rel="stylesheet" href="/css/includes/footer.css" />
+    <link rel="stylesheet" href="/css/pages/personal_info.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div>
+          <a href="./home.html" id="logo"
+            ><img src="/imgs/logo.png"
+          /></a>
+          <div class="contact_info">
+            <p>
+              <span id="contact_info_num">+38 099 500 5454</span>
+              <br />
+              <span id="contact_info_email">poshta@khrobak.ua</span>
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./prices.html">Тарифи</a></li>
+            <li><a href="./shipment.html">Оформити відправлення</a></li>
+            <li><a href="./package_history.html">Мої посилки</a></li>
+            <li class="active"><a href="./personal_info.html">Персональна інформація</a></li>
+            <li class="right"><a href="./auth_reg.html">Вхід\Реєстрація</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="dispatch_reg">
+          <legend>Персональна інформація</legend>
+          <div>
+              <div class="setting_item">
+                <input type="text" placeholder="Ім'я" value="Микола" name="first_name" required disabled>
+                <button class="edit">Змінити</button>
+                <button class="save">Зберегти</button>
+              </div>
+              <div class="setting_item">
+                <input type="text" placeholder="Прізвище" value="Сірко" name="last_name" required disabled>
+                <button class="edit">Змінити</button>
+                <button class="save">Зберегти</button>
+              </div>
+              <div class="setting_item">
+                <input type="text" placeholder="По-батькові" value="Кирилович" name="patronic_name" required disabled>
+                <button class="edit">Змінити</button>
+                <button class="save">Зберегти</button>
+              </div>
+              <div class="setting_item">
+                <input type="text" placeholder="Номер телефону" value="+380999999999" name="phone" required disabled>
+                <button class="edit">Змінити</button>
+                <button class="save">Зберегти</button>
+              </div>
+              <div class="setting_item">
+                <input type="text" placeholder="Електрона пошта" value="khrobachenko@poshta.com" name="email" required disabled>
+                <button class="edit">Змінити</button>
+                <button class="save">Зберегти</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h3>Адреса</h3>
+          <p>вул. Банкова, 22, м. Київ</p>
+          <p>01001, Україна</p>
+        </div>
+        <div>
+          <h3>Контактна інформація</h3>
+          <p>+38 099 500 5454</p>
+          <p>poshta@khrobak.ua</p>
+        </div>
+    </footer>
+    <script src="/js/personal_info.js"></script>
+  </body>
+</html>

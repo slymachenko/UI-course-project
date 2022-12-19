@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/includes/base.css" />
+    <link rel="stylesheet" href="/css/includes/header.css" />
+    <link rel="stylesheet" href="/css/includes/footer.css" />
+    <link rel="stylesheet" href="/css/pages/package_history.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div>
+          <a href="./home.html" id="logo"
+            ><img src="/imgs/logo.png"
+          /></a>
+          <div class="contact_info">
+            <p>
+              <span id="contact_info_num">+38 099 500 5454</span>
+              <br />
+              <span id="contact_info_email">poshta@khrobak.ua</span>
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./prices.html">Тарифи</a></li>
+            <li><a href="./shipment.html">Оформити відправлення</a></li>
+            <li class="active"><a href="./package_history.html">Мої посилки</a></li>
+            <li><a href="./personal_info.html">Персональна інформація</a></li>
+            <li class="right"><a href="./auth_reg.html">Вхід\Реєстрація</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+          <div class="dispatch_reg">
+            <div class="info_block">
+              <div class="head_block">
+                <legend>Посилка</legend>
+                <select>
+                  <option>№12131</option>
+                  <option>№01932</option>
+                  <option>№01543</option>
+                  <option>№01232</option>
+                </select>
+              </div>
+              <div>
+                <legend>Номер посилки</legend>
+                <input type="text" value="12131" name="sender_num" required disabled>
+                <legend>Дата відправлення</legend>
+                <input type="text" value="27.12.2022" name="sender_first_name" required disabled>
+                <legend>Дата отримання</legend>
+                <input type="text" value="31.12.2022" name="sender_first_name" required disabled>
+              </div>
+              <div>
+                <legend>Дані відправника</legend>
+                <input type="text" value="Volodymyr" name="sender_first_name" required disabled>
+                <input type="text" value="Zelenskiy" name="sender_last_name" required disabled>
+                <input type="text" value="Oleksandrovich" name="sender_patronic_name" required disabled>
+                <input type="text" value="+389999999" name="sender_phone" required disabled>
+              </div>
+              <div>
+                <legend>Дані отримувача</legend>
+                <input type="text" value="Kyrylo" name="sender_first_name" required disabled>
+                <input type="text" value="Budanov" name="sender_last_name" required disabled>
+                <input type="text" value="Oleksiyovich" name="sender_patronic_name" required disabled>
+                <input type="text" value="+3888888888" name="sender_phone" required disabled>
+              </div>
+            </div>
+          </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div>
+          <h3>Адреса</h3>
+          <p>вул. Банкова, 22, м. Київ</p>
+          <p>01001, Україна</p>
+        </div>
+        <div>
+          <h3>Контактна інформація</h3>
+          <p>+38 099 500 5454</p>
+          <p>poshta@khrobak.ua</p>
+        </div>
+    </footer>
+  </body>
+</html>
