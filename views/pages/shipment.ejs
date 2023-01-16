@@ -1,0 +1,53 @@
+<main>
+  <div class="container">
+    <form>
+      <div class="dispatch_reg">
+        <div class="info_block">
+          <legend>Інформація про відправника</legend>
+          <div>
+            <legend>Місце відправки</legend>
+            <select name="sender_shipment">
+              <option value="department">Відділення</option>
+              <option value="poshtomat">Поштомат</option>
+              <option value="adress">Адреса</option>
+            </select>
+          </div>
+          <div>
+            <legend>Номер відділення</legend>
+            <input type="text" placeholder="№" name="sender_num" required />
+          </div>
+          <div>
+            <legend>Дані відправника</legend>
+            <input type="text" placeholder="Ім'я" name="sender_first_name" required />
+            <input type="text" placeholder="Прізвище" name="sender_last_name" required />
+            <input type="text" placeholder="По-батькові" name="sender_patronic_name" required />
+            <input type="text" placeholder="Номер телефону" name="sender_phone" required />
+          </div>
+        </div>
+        <div class="info_block">
+          <legend>Інформація про отримувача</legend>
+          <div>
+            <legend>Місце доставки</legend>
+            <select name="sender_shipment">
+              <option value="department">Відділення</option>
+              <option value="poshtomat">Поштомат</option>
+              <option value="adress">Адреса</option>
+            </select>
+          </div>
+          <div>
+            <legend>Номер відділення</legend>
+            <input type="text" placeholder="№" name="reciever_num" required />
+          </div>
+          <div>
+            <legend>Дані отримувача</legend>
+            <input type="text" placeholder="Ім'я" name="reciever_first_name" required />
+            <input type="text" placeholder="Прізвище" name="reciever_last_name" required />
+            <input type="text" placeholder="По-батькові" name="reciever_patronic_name" required />
+            <input type="text" placeholder="Номер телефону" name="reciever_phone" required />
+          </div>
+        </div>
+      </div>
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+</main>
